@@ -1,20 +1,9 @@
 import React, { Component } from 'react';
-import Movies from './components/movies';
 import Counters from './components/counters';
 import NavBar from './components/navbar';
+import Pagination from './components/common/pagination';
 import './App.css';
 import 'font-awesome/css/font-awesome.css';
-import Pagination from './components/common/pagination';
-
-// function App() {
-//   return (
-//     <main className='container'>
-//       <h1 className='mt-5'>Content here</h1>
-//       {/* <Movies /> */}
-//       <Counters />
-//     </main>
-//   );
-// }
 
 class App extends Component {
   state = {
