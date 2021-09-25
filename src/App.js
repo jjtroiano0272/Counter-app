@@ -4,6 +4,7 @@ import NavBar from './components/navbar';
 import Pagination from './components/common/pagination';
 import './App.css';
 import 'font-awesome/css/font-awesome.css';
+// empty commit
 
 class App extends Component {
   state = {
